@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic", "Trebuchet MS", "Open-sans";
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+form input[type="text"]{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px !important;
+}
+.titleArea{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border-style: none;
+    margin: 15px;
+    text-decoration: none;
+}
+.btn:hover{
+	background-color: #fff;
+	outline: 1px solid green;
+	color: green;
+	cursor: pointer;
+}
